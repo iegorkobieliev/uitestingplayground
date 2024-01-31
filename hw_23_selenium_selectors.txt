@@ -1,0 +1,49 @@
+HW 23. Selenium selectors:
+1)
+http://www.uitestingplayground.com/dynamicid
+//button[normalize-space()='Button with Dynamic ID']
+button.btn.btn-primary
+
+2)
+http://www.uitestingplayground.com/classattr
+//button[contains(@class, 'btn-primary')]
+button.btn-primary
+
+3)
+http://www.uitestingplayground.com/hiddenlayers
+//button[@id='greenButton']
+#greenButton
+
+4)
+http://www.uitestingplayground.com/
+//h3/a
+h3 a
+
+5)
+//a[@class='navbar-brand']
+.navbar-brand
+
+6)
+//a[@class='nav-link' and @href='/home']
+.nav-link[href='/home']
+
+7)
+//a[@href='/loaddelay']
+a[href='/loaddelay']
+
+8)
+http://www.uitestingplayground.com/loaddelay
+//button[normalize-space()='Button Appearing After Delay']
+button.btn.btn-primary
+
+9)
+//a[@href='/ajax']
+a[href='/ajax']
+
+10)
+http://www.uitestingplayground.com/ajax
+//button[text()='Button Triggering AJAX Request']
+button.btn.btn-primary
+
+//p[@class='bg-success' and text()='Data loaded with AJAX get request.']
+.bg-success
